@@ -5,7 +5,7 @@ if (true);
 marks = prompt("Input Student Marks (0-100):");
 marks = parseFloat(Marks);
 if(!isNaN(marks) && marks >=0 && marks <=100){
-break;
+ break;
 } else {
     alert("KIndly enter a number between 0 and 100.");
  }
