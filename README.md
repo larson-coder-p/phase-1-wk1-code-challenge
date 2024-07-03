@@ -67,3 +67,41 @@ getStudentMark()
 
 ##Acknowledgement
 Special thanks to Moringa for providing guidance that inspired this creation.
+
+
+
+
+## Speed Check Program
+
+This project consists of an HTML file and a JavaScript file that work together to prompt the user to input the speed of a car, validate the input, and print either "Ok" or the total number of demerit points based on the speed.
+
+## Files
+
+1. **index.html**: The HTML file that contains the structure of the webpage.
+2. **script.js**: The JavaScript file that contains the logic for prompting the user and calculating demerit points.
+
+## How to Run
+
+1. **Clone the repository**:
+    ```sh
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Open `index.html`**:
+    - on the browser click check speed button
+    enter valid speed,press ok
+
+
+
+    **Use the Application**:
+    - On the webpage, click the "Check Speed" button.
+    - A prompt will appear asking you to input the speed of the car (in km/h).
+    - Enter a valid positive number and click "OK".
+    - The program will print "Ok" if the speed is less than 70 km/h. Otherwise, it will print the total number of demerit points based on the speed.
+
+## Speed Check Logic
+
+- **Ok**: If the speed is less than 70 km/h.
+- **Demerit Points**: For every 5 km/h above the speed limit (70 km/h), one demerit point is given.
+
