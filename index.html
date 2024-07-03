@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Grade Analyzer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <h1>Student Grade Analyzer</h1>
     <p>Click the button below to enter student marks.</p>
-    <button onclick="getstudentmarks()">Enter Marks</button>
-
+    <form id="marksForm">
+        <input type="text" id="marksInput" placeholder="Enter marks">
+    <button type="submit">Submit</button>
+</form>
+<p id="result"></p>
+    </div>
     <script src="script.js"></script>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
