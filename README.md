@@ -105,3 +105,53 @@ This project consists of an HTML file and a JavaScript file that work together t
 - **Ok**: If the speed is less than 70 km/h.
 - **Demerit Points**: For every 5 km/h above the speed limit (70 km/h), one demerit point is given.
 
+
+
+
+
+
+
+
+
+
+# Net Salary Calculator
+
+This is a simple web application for calculating an individual's Net Salary based on the provided basic salary and benefits. The application calculates the gross salary, NSSF deductions, NHIF deductions, PAYE tax, and the net salary.
+
+## Features
+
+- Input fields for Basic Salary and Benefits
+- Calculation of:
+  - Gross Salary
+  - NSSF Deductions
+  - NHIF Deductions
+  - PAYE Tax
+  - Net Salary
+- Displays the calculated values
+
+## Getting Started
+
+To run this application locally, follow these steps:
+
+### Prerequisites
+
+- Web browser (e.g., Chrome, Firefox, Safari)
+
+### Installation
+
+1. Clone this repository to your local machine:
+    
+
+2. Navigate to the project directory
+
+### Running the Application
+
+1. Open the `index.html` file in your web browser:
+    ```bash
+    open index.html
+    ```
+
+2. Enter the Basic Salary and Benefits in the provided fields and click on the "Calculate" button to view the salary details.
+
+
+
